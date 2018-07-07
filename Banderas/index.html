@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html ng-app="aplicacion">
+<head>
+    <title>Page Title</title>
+    <link rel="stylesheet"  href="CSS/estilo.css" />
+    <script src="Librerias/angularJS/angular.min.js"></script>
+    <script src="scripts/app.js"></script>
+            
+        <!--
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.2/angular.min.js"></script>
+     -->
+</head>
+<body ng-controller="ejemploCtrl">
+    {{ejemplo}}
+    <div >
+        {{ejemplo}}
+    </div>
+    <div>
+            {{ejemplo2}}
+        </div>
+    <div >
+                {{ejemplo3}}
+    </div>
+    <div>
+            {{ejemplo4}}
+    </div>
+    <div >
+            {{ejemplo5}}
+    </div>
+    <div ng-repeat="x in datadefL">
+       
+        <div class="cuadroPartido">
+            <img src="{{datadefLB[$index]}}">
+            {{x}}   Vs   {{datadefV[$index]}} <img src="{{datadefVB[$index]}}">
+        </div>
+
+    </div>
+
+</body>
+</html>
