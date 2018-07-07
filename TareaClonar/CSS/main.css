@@ -1,0 +1,81 @@
+body{
+    background-color: #f6f6f6 
+
+}
+
+.upperlink{
+    color: #43525A;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 10;
+    padding: 30px;
+}
+
+.headerP {
+    style: "text-align:center";
+}
+
+.text2 {
+    color: #43525A;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 25px;
+    padding: 5px;
+    width: 200px
+}
+
+.text3 {
+    color: #43525A;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 5px;
+    width: 200px
+}
+
+.button1{
+    background-color: #28A5BE;
+    width:  150px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #ffffff;
+    padding: 20px;
+
+}
+
+.button2{
+    background-color: #2D2D2D;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    width:  100px;
+    color: #ffffff;
+    padding:5px;
+
+}
+
+.debugCont{
+    background-color: #2D2D2D;
+}
+
+.izqbox {
+    width: 30%;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.derbox {
+    width: 30%;
+    float: right;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.centbox {
+    width: 30%;
+    margin-left: 200px;
+}
+
+.imagenes {
+    position: absolute;
+    
+}
